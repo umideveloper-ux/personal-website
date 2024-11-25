@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Sürücü | Online Ehliyet Sınavı Hazırlık Platformu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-car-front"></i> E-Sürücü
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="bi bi-house-door"></i> Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tests"><i class="bi bi-journal-check"></i> Testler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><i class="bi bi-info-circle"></i> Hakkında</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><i class="bi bi-envelope"></i> İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center animate__animated animate__fadeIn">
+                    <h1 class="mb-4">Online Ehliyet Sınavına Hazırlık</h1>
+                    <p class="lead mb-4">Ücretsiz testler ve güncel sorularla ehliyet sınavına hazırlanın!</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="#start-test" class="btn btn-light btn-lg">
+                            <i class="bi bi-play-circle me-2"></i>Hemen Başla
+                        </a>
+                        <a href="#about" class="btn btn-outline-light btn-lg">
+                            <i class="bi bi-info-circle me-2"></i>Daha Fazla Bilgi
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wave-animation"></div>
+    </div>
+
+    <div class="container my-5 py-5">
+        <div class="row text-center mb-5">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="display-5 mb-3" data-aos="fade-up">Neden E-Sürücü?</h2>
+                <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">
+                    Güncel müfredata uygun sorular ve profesyonel içeriklerle sınava hazırlanın.
+                </p>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-card">
+                    <i class="bi bi-book feature-icon"></i>
+                    <h3 class="h4 mb-3">Güncel Sorular</h3>
+                    <p class="text-muted mb-0">MEB müfredatına uygun, sürekli güncellenen soru havuzu ile pratik yapın.</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-card">
+                    <i class="bi bi-graph-up feature-icon"></i>
+                    <h3 class="h4 mb-3">Performans Takibi</h3>
+                    <p class="text-muted mb-0">Detaylı istatistikler ile gelişiminizi adım adım takip edin.</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="feature-card">
+                    <i class="bi bi-phone feature-icon"></i>
+                    <h3 class="h4 mb-3">Mobil Uyumlu</h3>
+                    <p class="text-muted mb-0">Dilediğiniz cihazdan kesintisiz erişim ile her yerde çalışın.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5 py-5">
+        <div class="row text-center mb-5">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="display-5 mb-3" data-aos="fade-up">Rakamlarla E-Sürücü</h2>
+                <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">
+                    Binlerce öğrencinin tercihi olan platformumuz, her geçen gün büyümeye devam ediyor.
+                </p>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="stats-card">
+                    <div class="stats-icon">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <h3 class="stats-number">50,000+</h3>
+                    <p class="stats-label">Aktif Kullanıcı</p>
+                </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="stats-card">
+                    <div class="stats-icon">
+                        <i class="bi bi-journal-text"></i>
+                    </div>
+                    <h3 class="stats-number">10,000+</h3>
+                    <p class="stats-label">Soru Bankası</p>
+                </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+                <div class="stats-card">
+                    <div class="stats-icon">
+                        <i class="bi bi-trophy"></i>
+                    </div>
+                    <h3 class="stats-number">%92</h3>
+                    <p class="stats-label">Başarı Oranı</p>
+                </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="500">
+                <div class="stats-card">
+                    <div class="stats-icon">
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <h3 class="stats-number">4.8/5</h3>
+                    <p class="stats-label">Kullanıcı Puanı</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials-section py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-5 mb-3" data-aos="fade-up">Kullanıcı Yorumları</h2>
+                    <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">
+                        Başarılı olan öğrencilerimizin deneyimleri
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Ayşe Y." class="testimonial-img">
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="testimonial-text">"E-Sürücü sayesinde ilk denemede ehliyet sınavını geçtim. Özellikle trafik işaretleri konusunda çok faydalı oldu."</p>
+                            <h5 class="testimonial-name">Ayşe Y.</h5>
+                            <p class="testimonial-title">B Sınıfı Ehliyet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-card">
+                        <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Mehmet K." class="testimonial-img">
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <p class="testimonial-text">"Mobil uygulaması sayesinde her yerde çalışabildim. Video dersler ve soru çözümleri çok faydalıydı."</p>
+                            <h5 class="testimonial-name">Mehmet K.</h5>
+                            <p class="testimonial-title">A2 Sınıfı Ehliyet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="testimonial-card">
+                        <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Zeynep A." class="testimonial-img">
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="testimonial-text">"Deneme sınavları gerçek sınav formatında olduğu için çok yardımcı oldu. Kesinlikle tavsiye ediyorum!"</p>
+                            <h5 class="testimonial-name">Zeynep A.</h5>
+                            <p class="testimonial-title">B Sınıfı Ehliyet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partners-section py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-5 mb-3" data-aos="fade-up">İş Ortaklarımız</h2>
+                    <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">
+                        Türkiye'nin önde gelen sürücü kursları ile çalışıyoruz
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4 align-items-center justify-content-center">
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="partner-logo">
+                        <img src="https://placehold.co/200x100?text=Logo+1" alt="Partner 1" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="partner-logo">
+                        <img src="https://placehold.co/200x100?text=Logo+2" alt="Partner 2" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="partner-logo">
+                        <img src="https://placehold.co/200x100?text=Logo+3" alt="Partner 3" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="500">
+                    <div class="partner-logo">
+                        <img src="https://placehold.co/200x100?text=Logo+4" alt="Partner 4" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="start-test" class="container my-5 py-5">
+        <div class="row text-center mb-5">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="display-5 mb-3" data-aos="fade-up">Test Seçimi</h2>
+                <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">
+                    Hangi konuda kendinizi test etmek istersiniz?
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-body p-4">
+                        <div class="test-options">
+                            <button class="btn btn-outline-primary w-100 mb-3 d-flex align-items-center" onclick="startTest('trafik')">
+                                <i class="bi bi-signpost-2 fs-4 me-3"></i>
+                                <div class="text-start">
+                                    <h5 class="mb-0">Trafik ve Çevre Bilgisi</h5>
+                                    <small class="text-muted">25 Soru • 30 Dakika</small>
+                                </div>
+                                <i class="bi bi-chevron-right ms-auto"></i>
+                            </button>
+                            <button class="btn btn-outline-primary w-100 mb-3 d-flex align-items-center" onclick="startTest('motor')">
+                                <i class="bi bi-gear fs-4 me-3"></i>
+                                <div class="text-start">
+                                    <h5 class="mb-0">Motor ve Araç Tekniği</h5>
+                                    <small class="text-muted">15 Soru • 20 Dakika</small>
+                                </div>
+                                <i class="bi bi-chevron-right ms-auto"></i>
+                            </button>
+                            <button class="btn btn-outline-primary w-100 mb-3 d-flex align-items-center" onclick="startTest('ilkyardim')">
+                                <i class="bi bi-heart-pulse fs-4 me-3"></i>
+                                <div class="text-start">
+                                    <h5 class="mb-0">İlk Yardım Bilgisi</h5>
+                                    <small class="text-muted">20 Soru • 25 Dakika</small>
+                                </div>
+                                <i class="bi bi-chevron-right ms-auto"></i>
+                            </button>
+                            <button class="btn btn-outline-primary w-100 d-flex align-items-center" onclick="startTest('karisik')">
+                                <i class="bi bi-shuffle fs-4 me-3"></i>
+                                <div class="text-start">
+                                    <h5 class="mb-0">Karışık Test</h5>
+                                    <small class="text-muted">50 Soru • 60 Dakika</small>
+                                </div>
+                                <i class="bi bi-chevron-right ms-auto"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="app-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="display-5 mb-4">Mobil Uygulamamızı İndirin</h2>
+                    <p class="lead mb-4">Her yerde, her zaman çalışmak için E-Sürücü mobil uygulamasını hemen indirin!</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="app-store-badge">
+                            <img src="https://placehold.co/200x60?text=App+Store" alt="App Store" class="img-fluid">
+                        </a>
+                        <a href="#" class="play-store-badge">
+                            <img src="https://placehold.co/200x60?text=Google+Play" alt="Google Play" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="https://placehold.co/600x400?text=App+Screenshot" alt="Mobile App" class="img-fluid app-screenshot">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5><i class="bi bi-car-front"></i> E-Sürücü</h5>
+                    <p class="text-muted">Online ehliyet sınavı hazırlık platformu</p>
+                    <div class="social-links">
+                        <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Hızlı Bağlantılar</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted">Ana Sayfa</a></li>
+                        <li><a href="#tests" class="text-muted">Testler</a></li>
+                        <li><a href="#about" class="text-muted">Hakkında</a></li>
+                        <li><a href="#contact" class="text-muted">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>İletişim</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><i class="bi bi-envelope me-2"></i> info@esurucu.com</li>
+                        <li><i class="bi bi-phone me-2"></i> +90 (555) 123 4567</li>
+                        <li><i class="bi bi-geo-alt me-2"></i> İstanbul, Türkiye</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0"> 2024 E-Sürücü. Tüm hakları saklıdır.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-muted me-3">Gizlilik Politikası</a>
+                    <a href="#" class="text-muted">Kullanım Şartları</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
